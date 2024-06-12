@@ -15,7 +15,7 @@ os.environ["OPENAI_MODEL_NAME"]="gpt-4-0125-preview"
 blog_researcher=Agent(
     role='Blog Researcher from Youtube Videos',
     goal='get the relevant video transcription for the topic {topic} from the provided Yt channel',
-    verboe=True,
+    verbose=True,
     memory=True,
     backstory=(
        "Expert in understanding videos in AI Data Science , MAchine Learning And GEN AI and providing suggestion" 
